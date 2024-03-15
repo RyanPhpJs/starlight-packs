@@ -1,0 +1,51 @@
+{
+  "name": "Javascript",
+  "description": "Adiciona suporte a aplicações Node.jS",
+  "image": "node",
+  "versions": [
+    {
+      "name": "v21.7.1",
+      "badges": ["yellow:DEV"],
+      "warn_text": false,
+      "tag": "21.7.1",
+      "end_support": "2026-04-30",
+      "default_startup_cmd": [
+        "npm install",
+        "node ."
+      ]
+    },
+    {
+      "name": "v20.11.1",
+      "badges": ["green:LTS"],
+      "warn_text": false,
+      "tag": "20.11.1",
+      "end_support": "2026-04-30",
+      "default_startup_cmd": [
+        "npm install",
+        "node ."
+      ]
+    },
+    {
+      "name": "v19.9.0",
+      "badges": ["red:UNSTABLE"],
+      "warn_text": "Essa versão não recebe atualizações de segurança, é fortemente recomendado não utiliza-la",
+      "tag": "19.9.0",
+      "end_support": "2023-06-01",
+      "default_startup_cmd": [
+        "npm install",
+        "node ."
+      ]
+    },
+    {
+      "name": "v18.19.1",
+      "badges": [],
+      "warn_text": false,
+      "tag": "18.19.1",
+      "end_support": "2025-04-30",
+      "default_startup_cmd": [
+        "npm install",
+        "node ."
+      ]
+    }
+  ]
+}
