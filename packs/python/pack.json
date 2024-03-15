@@ -1,0 +1,84 @@
+{
+  "name": "Python",
+  "description": "Adiciona suporte a aplicações Python",
+  "image": "python",
+  "versions": [
+    {
+      "name": "v3.12",
+      "badges": [],
+      "warn_text": false,
+      "tag": "3.12.2",
+      "end_support": "2028-10-31",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v3.11",
+      "badges": [],
+      "warn_text": false,
+      "tag": "3.11.8",
+      "end_support": "2027-10-31",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v3.10",
+      "badges": [],
+      "warn_text": false,
+      "tag": "3.10.13",
+      "end_support": "2026-10-31",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v3.9",
+      "badges": [],
+      "warn_text": false,
+      "tag": "3.9.18",
+      "end_support": "2025-10-31",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v3.8",
+      "badges": [],
+      "warn_text": false,
+      "tag": "3.8.18",
+      "end_support": "2024-10-31",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v3.7",
+      "badges": ["red:UNSTABLE"],
+      "warn_text": "Essa versão não recebe atualizações de segurança, é fortemente recomendado não utilizá-la",
+      "tag": "3.7.17",
+      "end_support": "2023-06-27",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    },
+    {
+      "name": "v2.7",
+      "badges": ["red:UNSTABLE"],
+      "warn_text": "Essa versão não recebe atualizações de segurança, é fortemente recomendado não utilizá-la",
+      "tag": "2.7.18",
+      "end_support": "2020-01-01",
+      "default_startup_cmd": [
+        "pip install -r requeriments.txt",
+        "python main.py"
+      ]
+    }
+  ]
+}
