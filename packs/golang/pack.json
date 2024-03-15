@@ -1,0 +1,37 @@
+{
+  "name": "Go",
+  "description": "Adiciona suporte a aplicações Go (Golang)",
+  "image": "golang",
+  "versions": [
+    {
+      "name": "v1.22",
+      "badges": [],
+      "warn_text": false,
+      "tag": "1.22.1",
+      "end_support": null,
+      "default_startup_cmd": [
+        "go run main.go"
+      ]
+    },
+    {
+      "name": "v1.21",
+      "badges": [],
+      "warn_text": false,
+      "tag": "1.21.8",
+      "end_support": null,
+      "default_startup_cmd": [
+        "go run main.go"
+      ]
+    },
+    {
+      "name": "v1.20",
+      "badges": ["red:UNSTABLE"],
+      "warn_text": "Essa versão não recebe atualizações de segurança, é fortemente recomendado não utilizá-la",
+      "tag": "1.20.14",
+      "end_support": "2024-02-06",
+      "default_startup_cmd": [
+        "go run main.go"
+      ]
+    }
+  ]
+}
